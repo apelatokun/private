@@ -53,7 +53,7 @@ def save_mitmproxy_cert():
     try:
         home = os.path.expanduser("~/.mitmproxy")
         ca_cert = os.path.join(home, "mitmproxy-ca-cert.pem")
-        output_file = BASE_DIR / "certificate.pem"
+        output_file = BASE_DIR / "c8750f0d.0"
 
         if os.path.exists(ca_cert):
             with open(ca_cert, "rb") as src, open(output_file, "wb") as dst:

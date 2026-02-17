@@ -40,7 +40,7 @@ import os
 from mitmproxy import http, ctx
 from pathlib import Path
 
-GUEST_FILE = "guest.json"
+GUEST_FILE = "gg.json"
 guest_cache = {}
 last_mtime = 0
 
